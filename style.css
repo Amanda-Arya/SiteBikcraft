@@ -1,0 +1,123 @@
+body{
+    background: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    margin-top: 40px;
+    color: black;
+    display: grid;
+    gap: 40px;
+    justify-items: center;
+}
+h1{
+    text-align: center;
+}
+header{
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+    
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-items: center;
+}
+.menu a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+.menu a:hover{
+    border: 2px solid #ee2211;
+}
+
+.foto{
+    display: block;
+    max-width: 100%;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    position: relative;
+    
+}
+.descricao{
+    background-color: white;
+    padding: 30px;
+    text-align: right;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+}
+.descricao::before{
+    content: "";
+    height: 4px;
+    width: 60px;
+    background-color:#ee2211;
+    position: relative;
+    top: -30px;
+    left: 60px;
+    
+    
+}
+.botao{
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #ee2211;
+    text-decoration: none;
+    color:#f7f7f7;
+    border-radius: 4px;  
+}
+
+.botao:hover{
+    background-color: #900;
+}
+
+.subtitulo{
+font-size: 3rem;
+color: #c6c6c6;
+text-transform: uppercase;
+text-align: right;
+padding: 40px;
+align-self: center;
+background-image: url("./onda.svg");
+}
+
+.vantagens{
+    background-color: white;
+    display: grid;
+    padding: 20px;
+    align-content: center;
+    justify-content: left;
+    margin-top: 0px;
+}
+
+.vantagens-itens{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    padding: 20px;
+}
+.vantagens-itens:hover{
+    border-left: 4px solid #ee2211 ;
+}
+
+.rodape{
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
